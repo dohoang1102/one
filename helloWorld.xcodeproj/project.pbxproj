@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF015DF31372829800DA8059 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF015DF21372829800DA8059 /* UIKit.framework */; };
+		BF015DF51372829800DA8059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF015DF41372829800DA8059 /* Foundation.framework */; };
+		BF015DF71372829800DA8059 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF015DF61372829800DA8059 /* CoreGraphics.framework */; };
+		BF015DFD1372829800DA8059 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF015DFB1372829800DA8059 /* InfoPlist.strings */; };
+		BF015E001372829800DA8059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF015DFF1372829800DA8059 /* main.m */; };
+		BF015E031372829800DA8059 /* helloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF015E021372829800DA8059 /* helloWorldAppDelegate.m */; };
+		BF015E061372829800DA8059 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF015E041372829800DA8059 /* MainWindow.xib */; };
+		BF015E091372829800DA8059 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF015E081372829800DA8059 /* DetailViewController.m */; };
+		BF015E0C1372829800DA8059 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF015E0A1372829800DA8059 /* DetailView.xib */; };
+		BF015E0F1372829800DA8059 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF015E0E1372829800DA8059 /* RootViewController.m */; };
+		BF015E161372829800DA8059 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF015DF21372829800DA8059 /* UIKit.framework */; };
+		BF015E171372829800DA8059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF015DF41372829800DA8059 /* Foundation.framework */; };
+		BF015E181372829800DA8059 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF015DF61372829800DA8059 /* CoreGraphics.framework */; };
+		BF015E201372829800DA8059 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF015E1E1372829800DA8059 /* InfoPlist.strings */; };
+		BF015E231372829800DA8059 /* helloWorldTests.h in Resources */ = {isa = PBXBuildFile; fileRef = BF015E221372829800DA8059 /* helloWorldTests.h */; };
+		BF015E251372829800DA8059 /* helloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF015E241372829800DA8059 /* helloWorldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF015E191372829800DA8059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF015DE51372829800DA8059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF015DED1372829800DA8059;
+			remoteInfo = helloWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF015DEE1372829800DA8059 /* helloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF015DF21372829800DA8059 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF015DF41372829800DA8059 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF015DF61372829800DA8059 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF015DFA1372829800DA8059 /* helloWorld-Info.plist */ = {isa = PBXFileReference; path = "helloWorld-Info.plist"; sourceTree = "<group>"; };
+		BF015DFC1372829800DA8059 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF015DFE1372829800DA8059 /* helloWorld-Prefix.pch */ = {isa = PBXFileReference; path = "helloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		BF015DFF1372829800DA8059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF015E011372829800DA8059 /* helloWorldAppDelegate.h */ = {isa = PBXFileReference; path = helloWorldAppDelegate.h; sourceTree = "<group>"; };
+		BF015E021372829800DA8059 /* helloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloWorldAppDelegate.m; sourceTree = "<group>"; };
+		BF015E051372829800DA8059 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BF015E071372829800DA8059 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		BF015E081372829800DA8059 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BF015E0B1372829800DA8059 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		BF015E0D1372829800DA8059 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		BF015E0E1372829800DA8059 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BF015E151372829800DA8059 /* helloWorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloWorldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF015E1D1372829800DA8059 /* helloWorldTests-Info.plist */ = {isa = PBXFileReference; path = "helloWorldTests-Info.plist"; sourceTree = "<group>"; };
+		BF015E1F1372829800DA8059 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF015E211372829800DA8059 /* helloWorldTests-Prefix.pch */ = {isa = PBXFileReference; path = "helloWorldTests-Prefix.pch"; sourceTree = "<group>"; };
+		BF015E221372829800DA8059 /* helloWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloWorldTests.h; sourceTree = "<group>"; };
+		BF015E241372829800DA8059 /* helloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloWorldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF015DEB1372829800DA8059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF015DF31372829800DA8059 /* UIKit.framework in Frameworks */,
+				BF015DF51372829800DA8059 /* Foundation.framework in Frameworks */,
+				BF015DF71372829800DA8059 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF015E111372829800DA8059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF015E161372829800DA8059 /* UIKit.framework in Frameworks */,
+				BF015E171372829800DA8059 /* Foundation.framework in Frameworks */,
+				BF015E181372829800DA8059 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF015DE31372829700DA8059 = {
+			isa = PBXGroup;
+			children = (
+				BF015DF81372829800DA8059 /* helloWorld */,
+				BF015E1B1372829800DA8059 /* helloWorldTests */,
+				BF015DF11372829800DA8059 /* Frameworks */,
+				BF015DEF1372829800DA8059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF015DEF1372829800DA8059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF015DEE1372829800DA8059 /* helloWorld.app */,
+				BF015E151372829800DA8059 /* helloWorldTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF015DF11372829800DA8059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF015DF21372829800DA8059 /* UIKit.framework */,
+				BF015DF41372829800DA8059 /* Foundation.framework */,
+				BF015DF61372829800DA8059 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF015DF81372829800DA8059 /* helloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				BF015E011372829800DA8059 /* helloWorldAppDelegate.h */,
+				BF015E021372829800DA8059 /* helloWorldAppDelegate.m */,
+				BF015E041372829800DA8059 /* MainWindow.xib */,
+				BF015E071372829800DA8059 /* DetailViewController.h */,
+				BF015E081372829800DA8059 /* DetailViewController.m */,
+				BF015E0A1372829800DA8059 /* DetailView.xib */,
+				BF015E0D1372829800DA8059 /* RootViewController.h */,
+				BF015E0E1372829800DA8059 /* RootViewController.m */,
+				BF015DF91372829800DA8059 /* Supporting Files */,
+			);
+			path = helloWorld;
+			sourceTree = "<group>";
+		};
+		BF015DF91372829800DA8059 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF015DFA1372829800DA8059 /* helloWorld-Info.plist */,
+				BF015DFB1372829800DA8059 /* InfoPlist.strings */,
+				BF015DFE1372829800DA8059 /* helloWorld-Prefix.pch */,
+				BF015DFF1372829800DA8059 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF015E1B1372829800DA8059 /* helloWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF015E221372829800DA8059 /* helloWorldTests.h */,
+				BF015E241372829800DA8059 /* helloWorldTests.m */,
+				BF015E1C1372829800DA8059 /* Supporting Files */,
+			);
+			path = helloWorldTests;
+			sourceTree = "<group>";
+		};
+		BF015E1C1372829800DA8059 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF015E1D1372829800DA8059 /* helloWorldTests-Info.plist */,
+				BF015E1E1372829800DA8059 /* InfoPlist.strings */,
+				BF015E211372829800DA8059 /* helloWorldTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF015DED1372829800DA8059 /* helloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF015E281372829800DA8059 /* Build configuration list for PBXNativeTarget "helloWorld" */;
+			buildPhases = (
+				BF015DEA1372829800DA8059 /* Sources */,
+				BF015DEB1372829800DA8059 /* Frameworks */,
+				BF015DEC1372829800DA8059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloWorld;
+			productName = helloWorld;
+			productReference = BF015DEE1372829800DA8059 /* helloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF015E141372829800DA8059 /* helloWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF015E2B1372829800DA8059 /* Build configuration list for PBXNativeTarget "helloWorldTests" */;
+			buildPhases = (
+				BF015E101372829800DA8059 /* Sources */,
+				BF015E111372829800DA8059 /* Frameworks */,
+				BF015E121372829800DA8059 /* Resources */,
+				BF015E131372829800DA8059 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF015E1A1372829800DA8059 /* PBXTargetDependency */,
+			);
+			name = helloWorldTests;
+			productName = helloWorldTests;
+			productReference = BF015E151372829800DA8059 /* helloWorldTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF015DE51372829800DA8059 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BF015DE81372829800DA8059 /* Build configuration list for PBXProject "helloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF015DE31372829700DA8059;
+			productRefGroup = BF015DEF1372829800DA8059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF015DED1372829800DA8059 /* helloWorld */,
+				BF015E141372829800DA8059 /* helloWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF015DEC1372829800DA8059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF015DFD1372829800DA8059 /* InfoPlist.strings in Resources */,
+				BF015E061372829800DA8059 /* MainWindow.xib in Resources */,
+				BF015E0C1372829800DA8059 /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF015E121372829800DA8059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF015E201372829800DA8059 /* InfoPlist.strings in Resources */,
+				BF015E231372829800DA8059 /* helloWorldTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF015E131372829800DA8059 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF015DEA1372829800DA8059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF015E001372829800DA8059 /* main.m in Sources */,
+				BF015E031372829800DA8059 /* helloWorldAppDelegate.m in Sources */,
+				BF015E091372829800DA8059 /* DetailViewController.m in Sources */,
+				BF015E0F1372829800DA8059 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF015E101372829800DA8059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF015E251372829800DA8059 /* helloWorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF015E1A1372829800DA8059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF015DED1372829800DA8059 /* helloWorld */;
+			targetProxy = BF015E191372829800DA8059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF015DFB1372829800DA8059 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF015DFC1372829800DA8059 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF015E041372829800DA8059 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF015E051372829800DA8059 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		BF015E0A1372829800DA8059 /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF015E0B1372829800DA8059 /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+		BF015E1E1372829800DA8059 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF015E1F1372829800DA8059 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF015E261372829800DA8059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BF015E271372829800DA8059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		BF015E291372829800DA8059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloWorld/helloWorld-Prefix.pch";
+				INFOPLIST_FILE = "helloWorld/helloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF015E2A1372829800DA8059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloWorld/helloWorld-Prefix.pch";
+				INFOPLIST_FILE = "helloWorld/helloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF015E2C1372829800DA8059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/helloWorld.app/helloWorld";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloWorldTests/helloWorldTests-Prefix.pch";
+				INFOPLIST_FILE = "helloWorldTests/helloWorldTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BF015E2D1372829800DA8059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/helloWorld.app/helloWorld";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloWorldTests/helloWorldTests-Prefix.pch";
+				INFOPLIST_FILE = "helloWorldTests/helloWorldTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF015DE81372829800DA8059 /* Build configuration list for PBXProject "helloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF015E261372829800DA8059 /* Debug */,
+				BF015E271372829800DA8059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF015E281372829800DA8059 /* Build configuration list for PBXNativeTarget "helloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF015E291372829800DA8059 /* Debug */,
+				BF015E2A1372829800DA8059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF015E2B1372829800DA8059 /* Build configuration list for PBXNativeTarget "helloWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF015E2C1372829800DA8059 /* Debug */,
+				BF015E2D1372829800DA8059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF015DE51372829800DA8059 /* Project object */;
+}
